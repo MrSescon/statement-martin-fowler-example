@@ -1,0 +1,17 @@
+{
+	"name": "first-example",
+	"version": "1.0.0",
+	"description": "This repository is my attempt to understand better how Martin Fowler has done the refactoring process taught in his book. I will try to add a new branch to each example in his book \"Refactoring: Improving the Design of Existing Code\" as far as I read it.",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "nodemon"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^14.14.28",
+		"nodemon": "^2.0.7",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.1.5"
+	}
+}

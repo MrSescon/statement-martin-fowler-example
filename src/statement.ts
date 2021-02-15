@@ -1,9 +1,11 @@
-function statement (invoice, plays) {
+import { Invoice } from './types'
+
+function statement (invoice:Invoice, plays:any) {
   let totalAmount: number = 0
   let volumeCredits: number = 0
   let result = `Statement for ${invoice.customer}\n`
 
-  const format = new Intl.NumberFormat("en­US",
+  const format = new Intl.NumberFormat("ENUS",
   { style: "currency", currency: "USD",
   minimumFractionDigits: 2 }).format
 
@@ -41,3 +43,4 @@ function statement (invoice, plays) {
   return result
 }
   
+export default statement
