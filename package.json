@@ -4,12 +4,15 @@
 	"description": "This repository is my attempt to understand better how Martin Fowler has done the refactoring process taught in his book. I will try to add a new branch to each example in his book \"Refactoring: Improving the Design of Existing Code\" as far as I read it.",
 	"main": "index.js",
 	"scripts": {
-		"start:dev": "nodemon"
+		"start:dev": "nodemon",
+		"test": "jest",
+		"testConfig": "jest --init"
 	},
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
 		"@types/node": "^14.14.28",
+		"jest": "^26.6.3",
 		"nodemon": "^2.0.7",
 		"ts-node": "^9.1.1",
 		"typescript": "^4.1.5"
